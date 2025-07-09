@@ -566,7 +566,7 @@ def handle_message(update: Update, context: CallbackContext):
         current_link = tasks[done]
 
         # ✅ Оборачиваем ссылку через редирект-трекер
-        wrapped_link = f"https://cbf57f61-4dc7-450e-9033-9707613b8d28-00-26gc7501m05x3.spock.replit.dev/click?user_id={user_id}&video_link={current_link}"
+        wrapped_link = f"https://tiktok-likes-bot.onrender.com/click?user_id={user_id}&video_link={current_link}"
 
         # 🔧 Сохраняем время начала задания
         conn = sqlite3.connect("likes_bot.db")
